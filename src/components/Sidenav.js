@@ -1,9 +1,8 @@
 import React from 'react'
-import Sidenav,{Toggle,NavItem,NavIcon,NavText,} from "@trendmicro/react-sidenav"
+import Sidenav,{NavItem,NavIcon,NavText,} from "@trendmicro/react-sidenav"
 import "@trendmicro/react-sidenav/dist/react-sidenav.css"
 
-import { useNavigate } from 'react-router-dom'
-import { colors, useColorScheme } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 function MySidenav() {
     const navigate= useNavigate();
   return (
@@ -53,10 +52,6 @@ function MySidenav() {
                         <NavText>Leave types availed</NavText>
                     </NavItem>
                     
-            </NavItem>
-            <NavItem eventKey="signin">
-            <NavIcon><i class="fa-solid fa-user-plus" style={{fontSize:"1.5em"}}></i></NavIcon>
-            <NavText>SignIn</NavText>
             </NavItem>
         </Sidenav.Nav>
     </Sidenav>

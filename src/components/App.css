@@ -1,0 +1,90 @@
+ h1 li{
+  display: inline-flex;
+  justify-content: right;
+  align-items: right;
+  padding:   20px 20px 10px 20px;
+  position: relative;
+  font-family: 'sans';
+  font-weight: 500;
+  font-size: 18px; 
+  text-align: end;
+  flex-direction: row-reverse;
+}
+h1{
+  
+  display: flex;
+  background-color: chocolate;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  height: 44px;
+  padding: 10px 10px 10px 10px;
+}
+#list:hover{
+  display:inline;
+  background-color: rgb(239, 238, 237);
+  align-items: left;
+  text-decoration:none;
+  justify-content: center;
+  padding: 30px 30px 30px 30px;
+  border-radius: 20;
+  
+
+}
+#piechart
+{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  margin: -60px;
+
+}
+#h{
+margin: 50px;
+  display:inline-flex;
+  
+}
+
+#category
+{
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  
+}
+#header{
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+.barchart{
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  margin-left: 360px;
+}
+body{
+  background-color:aliceblue;
+}
+#list{
+  text-decoration: none;
+}
+#root{
+  text-decoration: none;
+}
+#MySidenav{
+  display: flexbox;
+  background-color:chocolate !important;
+  font-family: 'Times New Roman', Times, serif;
+  height: 750px;
+  
+}
+p{
+  margin: -250px;
+  align-items: right;
+  justify-content: right;
+  display: block;
+  margin-right: -800px;
+  margin-top: -470px;
+}

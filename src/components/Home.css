@@ -1,19 +1,19 @@
 /*home page css*/
 .news-box {
-    position: fixed;
-    top: 0;
-    right: 0;
+    position:fixed;
+    right:0px;
     width: 300px;
-    height: 400px;
+  
     background-color: #f4f4f4;
     border: 1px solid #ccc;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    display: flex;
+    
     flex-direction: column;
   }
   
   .news-box-header {
+    align-items: ce;
     background-color: #333;
     color: white;
     text-align: center;
@@ -21,8 +21,11 @@
   }
   
   .news-box-content {
+    align-items: center;
+    justify-content: center;
     flex: 1;
     padding: 10px;
+    overflow-x: scroll;
     overflow-y: scroll;
   }
   
@@ -33,11 +36,11 @@
   }
   
   .news-box li {
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid #ccc;
   }
   
   .news-box li:last-child {
-    border-bottom: none;
+    border-bottom: dashed;
   }
   
